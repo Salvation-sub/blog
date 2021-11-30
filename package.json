@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Salvation-sub/blog.git",
+  "author": "dev <kyman19940214@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "doc": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-last-updated": "^1.8.2",
+    "vuepress": "^1.8.2"
+  }
+}
