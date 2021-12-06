@@ -1,13 +1,13 @@
 const routes = ['TIL', 'about'];
 
-// const createSidebar = () => {
-//   const sidebar = {};
-//   for (const route of routes) {
-//     Object.assign(sidebar, require('../TIL/'));
-//   }
+const createSidebar = () => {
+  const sidebar = {};
+  for (const route of routes) {
+    Object.assign(sidebar, require('../TIL/'));
+  }
 
-//   return sidebar;
-// };
+  return sidebar;
+};
 
 module.exports = {
   title: '기록을 습관처럼',
@@ -35,7 +35,7 @@ module.exports = {
         ],
       },
     ],
-    // sidebar: createSidebar(),
+    sidebar: createSidebar(),
   },
   plugins: [['@vuepress/last-updated']],
 };

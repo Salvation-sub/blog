@@ -43,7 +43,6 @@ h1 {
   font-size: 2rem;
 }
 ul {
-  list-style: none;
   line-height: 1.5rem;
 }
 @media (max-width: 550px) {
